@@ -1,0 +1,13 @@
+name: "What time is it"
+description: "Shows the current time in a specific time zone"
+inputs:
+  time-zone:
+    description: "Time Zone"
+    required: false
+    default: ""
+outputs:
+  time:
+    description: "Current time in your time zone"
+runs:
+  using: "node12"
+  main: "index.js"

@@ -1,0 +1,26 @@
+{
+  "name": "what-time-is-it-action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfcm83/CustomGitHubAction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfcm83/CustomGitHubAction/issues"
+  },
+  "homepage": "https://github.com/rfcm83/CustomGitHubAction#readme",
+  "description": "",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0"
+  }
+}
