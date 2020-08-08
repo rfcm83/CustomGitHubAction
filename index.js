@@ -8,7 +8,7 @@ try {
     const timeZone = core.getInput('time-zone');
     if (timeZone) {
         var customTime = utcDate.toLocaleString(culture, { timeZone: timeZone });
-        console.log(`Time in your zone (${timezone}): ${getTimeString(customTime)}`);
+        console.log(`Time in your zone (${timeZone}): ${getTimeString(customTime)}`);
         core.setOutput("time", new Date(customTime));
     }
     else {
